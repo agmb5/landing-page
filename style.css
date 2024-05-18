@@ -3,138 +3,54 @@ body {
     flex-direction: column;
     padding: 0px;
     margin: 0px;
-    min-height: 100vh;
-    
-   
-
-    
-}
-
-.top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    min-height: 100vh;  
 }
 
 .navbar {
     display: flex;
-    gap: 500px;
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    list-style: none;
-    padding: 0px;
+    justify-content: center;
 }
 
 .logo {
-    
-    font-size: 24px;
-    #color: #f9faf8;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
 }
 
 a {
     text-decoration: none;
-    font-size: 18px;
+}
+
+.content1, .content2, .content3, .content4 {
+    display: flex;
 }
 
 .content1 {
-    display: flex;
     justify-content: center;
-    align-items: center;
-   
-    
-    
-}
-
-.image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 50%;
-    overflow: hidden;
-}
-
-.image > img {
-    flex-shrink: 0;
-    min-width: 100%;
-    max-width: 100%;
 }
 
 .para1 {
-    height: 100%;
-    width: 50%;
+    width: 30%;
+}
+
+.image {
+    width: 30%;
+    background-color: grey;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 14px;
-}
-
-.para1 > .title {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0px;
-}
-
-.para1 > p {
-    font-size: 18px;
-    margin: 0;
-}
-
-.content2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 22%;
-}
-
-.title2 {
-    font-size: 36px;
-    font-weight: 800;
-}
-
-.boxes {
-    display: flex;
-    
-}
-
-.box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    
-}
-
-.box > div {
-    border: solid;
-    height: 100px;
-    width: 100px;
-
-}
-
-.box > p {
-    align-self: center;
-}
-
-.content3 {
-    display: flex;
-    height: 22%;
-    flex-direction: column;
-    
-    justify-content: center;
-}
-
-.quote {
-    font-size: 36px;
-    text-align: center;
-    margin: 0px;
-}
-
-.signature {
-    text-align: center;
-    padding-left: 300px;
+    align-items: center;
 }
