@@ -4,6 +4,7 @@ body {
     padding: 0px;
     margin: 0px;
     min-height: 100vh;  
+    font-family: Roboto;
 }
 
 .navbar {
@@ -24,12 +25,10 @@ ul {
     justify-content: flex-end;
     padding: 0px;
     list-style: none;
+    align-items: center;
+    margin: 0;
 }
 
-li {
-    text-align: center;
-}
-}
 
 a {
     text-decoration: none;
@@ -41,10 +40,14 @@ a {
 
 .content1 {
     justify-content: center;
+    margin: 100px 0;
+    
 }
 
 .para1 {
     width: 30%;
+    height: 200px;
+  
 }
 
 .image {
@@ -53,4 +56,178 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
+}
+
+.para1 > .title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 0px;
+    
+}
+
+.para1 > p {
+    font-size: 18px;
+}
+
+.content2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 {
+    margin: 50px 0;
+    font-size: 36px;
+}
+
+.boxes {
+    display: flex;
+    
+    
+}
+
+.box > div {
+    width: 50%;
+    height: 150px;
+    border: solid #3882f6;
+    border-radius: 25px;
+}
+
+.box > p {
+    width: 50%;
+    text-align: center;
+    margin: 15px 0;
+    color: gray;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content3 {
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin {
+    margin: 200px 0;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.quote {
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.content3 > p {
+    margin: 0px;
+}
+
+.signature {
+    text-align: end;
+    width: 50%;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 2px 25px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-color: #3882f6;
+}
+
+.content4 {
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.miao {
+    
+    border-radius: 10px;
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bau {
+    
+    width: 85%;
+}
+
+.call {
+    font-size: 24px;
+}
+
+.split > p {
+    margin: 0px;
+    
+}
+
+.split > div {
+    align-self: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.top, .footer {
+    background-color: #1f2937;
+}
+
+.title {
+    color: #f9faf8;
+}
+
+.logo {
+    color: #f9faf8;
+}
+
+p, a {
+    color: #e5e7eb;
+}
+
+.content3 {
+    background-color: #e5e7eb;
+}
+
+.quote, .signature {
+    color: #1f2937;
+}
+
+.miao {
+    background-color: #3882f6;
+}
+
+.call {
+    color: #e5e7eb;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.button2 {
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border: 3px solid;
 }
